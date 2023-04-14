@@ -1,5 +1,6 @@
 if game.Loaded then
-    local self = {
+    
+local self = {
     ["queueType"] = "skywars_to2";
 }
 
@@ -15,4 +16,5 @@ Humanoid:MoveTo(Character:WaitForChild("HumanoidRootPart").Position + Vector3.ne
 task.wait(0.5)
 Humanoid.Health = 0
 event:FireServer(self)
+    
 end
